@@ -1,0 +1,272 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+body{
+   background-color: #F5FFFA;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background:black;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper .sidebar h5{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.active{
+	background-color:#594f8d;
+	color:#fff !important;
+}.active a{
+	background-color:#594f8d;
+	color:#fff !important;
+}
+.btn{
+	padding: 10px 25px;
+	background-color: orange;
+	border:0px;
+	border-radius: 25px;
+	text-transform: uppercase;
+	font-size: .95rem;
+	color: white;
+	margin:5px;
+	margin-left: 550px;
+	
+}
+.userlogout{
+  width: 50%;
+  background: orange;
+  border: 2px solid orange;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  border-radius: 20px;
+  left: 30%
+}
+.main_content button:hover{
+	background-color:black;
+	color: orange;
+}
+
+
+
+
+/* INSERT PART CSS */
+
+    
+
+.main{
+    padding:10px;
+    height:628px;
+    width:414px;
+                
+}
+#main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+h2.title_area{
+                
+    margin-top:25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    background-color:orange;
+	padding: 20px;
+}
+    input[type=text]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btnsignup{
+  width: 100%;
+  background: orange;
+  border: 2px solid orange;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  border-radius: 20px;
+}
+#main button:hover{
+	background-color:black;
+	color: orange;
+}
+form{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/* VIEW TABLE PART CSS */
+
+
+.main2{
+	margin-top:50px;
+    height:850px;
+    width:1000px;
+	position: absolute;
+	left: 21%;
+                
+}
+
+table {
+  font-family: oswald;
+  border-collapse: collapse;
+  width: 100%;
+  text-align:center;
+}
+
+td{
+  border: 1px solid  #900C3F ;
+  text-align: left;
+  padding: 25px;
+  text-align:center;
+  font-size: .8rem;
+  font-weight: bold;
+  color: black;
+}
+th {
+  border: 1px solid  #900C3F ;
+  font-size:1rem;
+  padding: 25px;
+  text-align:center;
+  color:white;
+  background-color:#594f8d;
+  font-weight:100;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/* NEW TRY TABLE CSS */
+table.paleBlueRows td, th {
+  padding: 5px 2px;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
